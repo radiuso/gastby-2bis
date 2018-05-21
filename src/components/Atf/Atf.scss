@@ -1,0 +1,31 @@
+.atf {
+  position: relative;
+  height: 90vh;
+
+  .atf--image {
+    height: 90vh;
+    object-fit: contain;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+  }
+
+  .atf--rect {
+    height: 50vh;
+    position: absolute;
+    top: 20vh;
+    object-fit: contain;
+    z-index: -1;
+  }
+
+  .atf--subtitle {
+    width: 30vw;
+    margin-left: 5vw;
+    z-index: 2;
+  }
+
+  .atf--logo {
+    margin: 2vw 25vw;
+  }
+}
