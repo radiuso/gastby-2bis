@@ -1,5 +1,5 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from 'react';
+import Link from 'gatsby-link';
 
 import Atf from '../components/Atf';
 
@@ -13,6 +13,6 @@ const IndexPage = () => (
       <Link to="/page-2/" className="button is-text">Go to page 2</Link>
     </div>
   </div>
-)
+);
 
-export default IndexPage
+export default IndexPage;

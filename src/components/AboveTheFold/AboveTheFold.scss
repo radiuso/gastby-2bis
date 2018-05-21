@@ -1,0 +1,21 @@
+@import '../../styles/helpers/shadows';
+
+.above-the-fold {
+  background-color: antiquewhite;
+  padding: 2rem;
+
+  .atf-body {
+    @extend .has-shadow;
+    height: 20rem;
+  }
+
+  .atf-bg-image {
+    background-image: url("/images/TheLastNight_05.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .atf-content {
+    background-color: aliceblue;
+  }
+}
