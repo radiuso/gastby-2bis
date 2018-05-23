@@ -1,8 +1,10 @@
 /** VARIABLES **/
-@import '../abstracts/variables';
+@import '../abstracts/variables',
+        '../abstracts/mixins';
 
 /** VENDOR **/
 @import '~bulma/bulma';
 
 /** SPECIFIC **/
+@import './page';
 @import '../helpers/shadows';

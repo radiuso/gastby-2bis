@@ -14,7 +14,7 @@ const TemplateWrapper = ({ children }) => (
         { name: 'keywords', content: 'boulangerie, pâtisserie' },
       ]}
     />
-    <div>
+    <div className="container">
       {children()}
     </div>
   </div>

@@ -1,31 +1,99 @@
+@import '~bulma/sass/utilities/mixins';
+@import '../../styles/abstracts/mixins';
+
 .atf {
   position: relative;
-  height: 90vh;
+  height: 40rem;
 
   .atf--image {
-    height: 90vh;
+    height: 40rem;
     object-fit: contain;
     position: absolute;
     right: 0;
     top: 0;
-    z-index: -1;
   }
 
   .atf--rect {
-    height: 50vh;
+    height: 25rem;
     position: absolute;
-    top: 20vh;
+    top: 10rem;
+    left: 0;
     object-fit: contain;
-    z-index: -1;
   }
 
   .atf--subtitle {
-    width: 30vw;
-    margin-left: 5vw;
+    font-size: 2.5rem;
+    position: relative;
+    width: 50vw;
+    margin-left: 3rem;
     z-index: 2;
   }
 
   .atf--logo {
-    margin: 2vw 25vw;
+    position: relative;
+    z-index: 2;
+    width: 15rem;
+    margin: 2rem 10rem;
+  }
+}
+
+@include desktop {
+  .atf {
+    .atf--subtitle {
+      margin-top: 2rem;
+      font-size: 2rem;
+      width: 50vw;
+    }
+
+    .atf--logo {
+      margin-left: 20rem;
+    }
+  }
+}
+
+@include touch {
+  .atf {
+
+  }
+}
+
+@include tablet-only {
+  .atf {
+    .atf--subtitle {
+      width: 36vw;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@include mobile {
+  .atf {
+    height: 30rem;
+
+    .atf--image {
+      height: 20rem;
+    }
+
+    .atf--subtitle {
+      font-size: 1.5rem;
+      width: 50vw;
+      margin-top: 8vh;
+    }
+
+    .atf--rect {
+      height: 15rem;
+      top: 10rem;
+    }
+
+    .atf--logo {
+      width: 10rem;
+      margin: 2rem 2rem;
+    }
+  }
+}
+
+@include mobile-bis {
+  .atf {
+
   }
 }

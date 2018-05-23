@@ -1,0 +1,7 @@
+@import './variables';
+
+@mixin mobile-bis {
+    @media screen and (min-width: $mobile) {
+        @content;
+    }
+}

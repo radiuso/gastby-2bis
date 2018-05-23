@@ -14,8 +14,7 @@ const Atf = () => (
     <img src="images/rect.svg" className="atf--rect" />
 
     <img src="images/atf_terrasse.png"
-        srcSet="images/atf_terrasse@2x.png 2x,
-                images/atf_terrasse@3x.png 3x"
+        srcSet="images/atf_terrasse@2x.png 2x"
         className="atf--image" />
   </div>
 );
